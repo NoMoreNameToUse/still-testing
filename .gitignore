@@ -6,3 +6,6 @@ ffmpeg.exe
 ffplay.exe
 ffprobe.exe
 node_modules
+config.json
+log/logoutput.txt
+log/logoutput.txt

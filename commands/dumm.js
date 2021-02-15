@@ -1,5 +1,5 @@
 //Load node ytdl-core(you-tube-down-loader) Npmjs :https://www.npmjs.com/package/ytdl-core
-const ytdl = require('ytdl-core-discord');
+const ytdl = require('ytdl-core');
 //Load ytsr(you-tube-search-result). Npmjs :https://www.npmjs.com/package/ytsr
 const ytsr = require('ytsr');
 //using ffmpeg from https://www.ffmpeg.org/
@@ -24,7 +24,7 @@ module.exports = {
         try {
             var connection = await voiceChannel.join();
             let stream = await ytdl('https://www.youtube.com/watch?v=dGAo9AK0KNA', { filter: 'audioonly', highWaterMark: 1 << 25 });
-            let dispatcher = await connection.play(stream, { type: 'opus' })
+            let dispatcher = await connection.play(stream);
             dispatcher.on("finish", () => {
                 voiceChannel.leave();
               })

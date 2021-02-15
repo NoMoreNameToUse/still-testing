@@ -8,7 +8,7 @@ module.exports = {
     category: 'Utility',
     execute(message, args) {
         /*################### temporary premission script###################*/
-        if(message.author.id == "594484787914473483"){
+        if(message.author.id == "594484787914473483"||message.author.id == "594604652876660756"){
         /*################### temporary premission script end###################*/
                   const deleteamout = parseInt(args[0]) + 1;
         //check if the given quantity is number 
