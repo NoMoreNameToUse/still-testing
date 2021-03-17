@@ -5,7 +5,7 @@ still testing is a discord bot that still need some testing.
   Warning: this bot is not so stable, please report any issues encounterd. Thank you :D 
   
   - Aim: practice javascript and make a reliable and useful bot.
-  - Update: 23.7.2020: still testing is now opensorced! 
+  - Update: 23.7.2020: still testing is now opensorce! 
 
 # New Features!
 
