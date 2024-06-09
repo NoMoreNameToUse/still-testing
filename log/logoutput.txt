@@ -19,3 +19,6 @@ aaa
 #LOG <Sun Jun 09 2024 14:49:56 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
 #LOG <Sun Jun 09 2024 14:50:08 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
 #ERROR <Sun Jun 09 2024 14:50:15 GMT+0200 (Mitteleuropäische Sommerzeit)>: TypeError: Cannot read properties of undefined (reading 'destroy')
+/*---------New Console Log startet at Sun Jun 09 2024 14:55:06 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
+#LOG <Sun Jun 09 2024 14:55:16 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 14:55:20 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
