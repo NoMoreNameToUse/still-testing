@@ -18,7 +18,7 @@
   "homepage": "https://github.com/NoMoreNameToUse/still-testing#readme",
   "dependencies": {
     "@discordjs/voice": "^0.16.0",
-    "discord.js": "^14.13.0",
+    "discord.js": "^14.15.3",
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "libsodium-wrappers": "^0.7.13",
