@@ -1,2 +1,10 @@
 ####Log####
 aaa
+/*---------New Console Log startet at Mon Feb 15 2021 19:44:18 GMT+0100 (GMT+01:00)---------*/
+#LOG <Wed Feb 17 2021 21:55:09 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m s guten morgen barbarossaplatz with guten,morgen,barbarossaplatz as arguments
+#LOG <Thu Feb 18 2021 19:22:13 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m p doom ost D1 with doom,ost,D1 as arguments
+#LOG <Thu Feb 18 2021 19:22:40 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m skip with  as arguments
+#LOG <Thu Feb 18 2021 19:23:19 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m s doom ost M1D1 with doom,ost,M1D1 as arguments
+#LOG <Thu Feb 18 2021 19:23:32 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m s doom ost M1D1 with doom,ost,M1D1 as arguments
+#LOG <Thu Feb 18 2021 19:23:42 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m s doom ost E1M1 with doom,ost,E1M1 as arguments
+/*---------New Console Log startet at Fri Aug 13 2021 09:57:49 GMT+0200 (GMT+02:00)---------*/
