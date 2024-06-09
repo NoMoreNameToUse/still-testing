@@ -1,0 +1,15 @@
+{
+	"prefix": "%",
+	"botToken": "",
+	"bot_id":"",
+	"helloserverid": "",
+	"hellochannelid": "",
+	"helloMessage": "Hello, i'm back again",
+	"activityMessage": "yes, im still testing",
+	"developer": "Spacezhang (SomeNameToUse 594484787914473483)",
+	"botName": "Still Testing",
+	"contact": "zhangyichen380@gmail.com",
+	"version":"v0.001 pre alpha test",
+	"description":"a bot that still needs some testing",
+	"githubLink":"https://github.com/Association-for-the-Sake-of-Science/Still-Testing"
+}	

@@ -1,4 +1,4 @@
-config.json
+config/config.json
 log/logoutput.txt
 database/still testing database.sqlite
 ffmpeg.exe
