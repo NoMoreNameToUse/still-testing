@@ -8,3 +8,14 @@ aaa
 #LOG <Thu Feb 18 2021 19:23:32 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m s doom ost M1D1 with doom,ost,M1D1 as arguments
 #LOG <Thu Feb 18 2021 19:23:42 GMT+0100 (GMT+01:00)>: <@594484787914473483> used %m s doom ost E1M1 with doom,ost,E1M1 as arguments
 /*---------New Console Log startet at Fri Aug 13 2021 09:57:49 GMT+0200 (GMT+02:00)---------*/
+/*---------New Console Log startet at Sun Jun 09 2024 14:38:35 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
+#LOG <Sun Jun 09 2024 14:38:55 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 14:39:01 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
+/*---------New Console Log startet at Sun Jun 09 2024 14:43:58 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
+#LOG <Sun Jun 09 2024 14:44:09 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 14:44:12 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
+#ERROR <Sun Jun 09 2024 14:45:18 GMT+0200 (Mitteleuropäische Sommerzeit)>: TypeError: Cannot read properties of null (reading 'permissionsFor')
+/*---------New Console Log startet at Sun Jun 09 2024 14:49:48 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
+#LOG <Sun Jun 09 2024 14:49:56 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 14:50:08 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#ERROR <Sun Jun 09 2024 14:50:15 GMT+0200 (Mitteleuropäische Sommerzeit)>: TypeError: Cannot read properties of undefined (reading 'destroy')

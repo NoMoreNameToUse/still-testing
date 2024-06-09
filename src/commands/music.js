@@ -11,6 +11,7 @@ const {
   createAudioResource,
   entersState,
   VoiceConnectionStatus,
+  getVoiceConnection,
   AudioPlayerStatus,
 } = require("@discordjs/voice");
 
@@ -55,6 +56,12 @@ module.exports = {
 
     //check if the bot have the perms to join and play 
     const voiceChannel = message.member.voice.channel;
+    if(voiceChannel == null){
+      message.channel.send(
+        "you need to be in a voice channel!"
+      );
+      return;
+    }
     const permissions = voiceChannel.permissionsFor(message.client.user);
     if (!permissions.has("CONNECT") || !permissions.has("SPEAK")) {
         return;
@@ -200,12 +207,13 @@ module.exports = {
         break;
       case "stop":
         //not working for now
-        if (!message.member.voice.channel);
+        if (message.member.voice.channel == null)
         return message.channel.send(
           "You have to be in a voice channel to stop the music!"
         );
+        connection = getVoiceConnection(message.guild.id);
         this.songQueue = [];
-        message.member.voice.channel.leave();
+        connection.destroy();
         break;
       case "search":
       case "s":
