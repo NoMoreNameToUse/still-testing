@@ -22,3 +22,22 @@ aaa
 /*---------New Console Log startet at Sun Jun 09 2024 14:55:06 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
 #LOG <Sun Jun 09 2024 14:55:16 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
 #LOG <Sun Jun 09 2024 14:55:20 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
+#LOG <Sun Jun 09 2024 15:01:55 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
+#LOG <Sun Jun 09 2024 15:01:55 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 15:02:00 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 15:02:40 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 15:02:47 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
+#LOG <Sun Jun 09 2024 15:02:54 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+#LOG <Sun Jun 09 2024 15:03:00 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m stop with  as arguments
+#ERROR <Sun Jun 09 2024 19:01:56 GMT+0200 (Mitteleuropäische Sommerzeit)>: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+#LOG <Sun Jun 09 2024 19:02:29 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m s metallica with metallica as arguments
+#LOG <Sun Jun 09 2024 19:24:10 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m help with  as arguments
+#LOG <Sun Jun 09 2024 19:24:22 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %help m with m as arguments
+#LOG <Sun Jun 09 2024 19:24:33 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m queue with  as arguments
+#LOG <Sun Jun 09 2024 19:37:51 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m queue with  as arguments
+#LOG <Sun Jun 09 2024 19:38:00 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m skip with  as arguments
+#LOG <Sun Jun 09 2024 19:38:24 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %bdel 10 with 10 as arguments
+#LOG <Sun Jun 09 2024 19:38:30 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %bdel 20 with 20 as arguments
+#LOG <Sun Jun 09 2024 19:38:46 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
+/*---------New Console Log startet at Wed Jul 24 2024 19:34:31 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
+#LOG <Wed Jul 24 2024 19:35:09 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p chop suy with chop,suy as arguments
