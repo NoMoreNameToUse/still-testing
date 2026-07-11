@@ -1,5 +1,5 @@
-//Load node ytdl-core(you-tube-down-loader) Npmjs :https://www.npmjs.com/package/ytdl-core
-const ytdl = require("@distube/ytdl-core");
+//Load yt-dlp-exec for audio streaming (replaces ytdl-core)
+const ytdlp = require("yt-dlp-exec");
 //Load ytsr(you-tube-search-result). Npmjs :https://www.npmjs.com/package/ytsr
 const ytsr = require('youtube-sr').default;
 //using ffmpeg from https://www.ffmpeg.org/
@@ -122,16 +122,10 @@ module.exports = {
               message.channel.send(data.join("\n"));
               //play the song if there is no song playing.
               if (oldSongQueue == false) {
-                try {
-                  var connection = joinVoiceChannel({
-                      channelId: voiceChannel.id,
-                      guildId: voiceChannel.guild.id,
-                      adapterCreator: voiceChannel.guild.voiceAdapterCreator,
-                    });}
-                catch (err) {
-                      console.log(err);
-                      return
-                  }
+                const connection = await this.getReadyConnection(
+                  message,
+                  voiceChannel
+                );
                 if (connection) {
                   message.channel.send(
                     `Joined channel \`${message.member.voice.channel.name}\``
@@ -178,25 +172,17 @@ module.exports = {
             this.songQueue.push(songInfo);
             //if there is no music in the queue, play the song. Else queue the song
             if (this.songQueue[1] == undefined) {
-              try {
-                var connection = joinVoiceChannel({
-                    channelId: voiceChannel.id,
-                    guildId: voiceChannel.guild.id,
-                    adapterCreator: voiceChannel.guild.voiceAdapterCreator,
-                  });
-              try {
-                await entersState(connection, VoiceConnectionStatus.Ready, 5000);
-                message.channel.send(
-                  `Joined channel \`${message.member.voice.channel.name}\``
-                );
-                } catch (error) {
-                console.log("Voice Connection not ready within 5s.", error);
-                return null;
-                }}
-                catch (err) {
-                      console.log(err);
-                      return
-                  }
+              const connection = await this.getReadyConnection(
+                message,
+                voiceChannel
+              );
+              if (!connection) {
+                return;
+              }
+
+              message.channel.send(
+                `Joined channel \`${message.member.voice.channel.name}\``
+              );
 
               await this.play(message, voiceChannel, connection);
             } else {
@@ -211,9 +197,11 @@ module.exports = {
         return message.channel.send(
           "You have to be in a voice channel to stop the music!"
         );
-        connection = getVoiceConnection(message.guild.id);
+        const connection = getVoiceConnection(message.guild.id);
         this.songQueue = [];
-        connection.destroy();
+        if (connection) {
+          connection.destroy();
+        }
         break;
       case "search":
       case "s":
@@ -280,25 +268,17 @@ module.exports = {
           //if there is no music in the queue, play the song. Else queue the song
           console.log(this.songQueue);
           if (this.songQueue[1] == undefined) {
-            try {
-              var connection = joinVoiceChannel({
-                  channelId: voiceChannel.id,
-                  guildId: voiceChannel.guild.id,
-                  adapterCreator: voiceChannel.guild.voiceAdapterCreator,
-                });
-            try {
-              await entersState(connection, VoiceConnectionStatus.Ready, 5000);
-              message.channel.send(
-                `Joined channel \`${message.member.voice.channel.name}\``
-              );
-              } catch (error) {
-              console.log("Voice Connection not ready within 5s.", error);
-              return null;
-              }}
-              catch (err) {
-                    console.log(err);
-                    return
-                }
+            const connection = await this.getReadyConnection(
+              message,
+              voiceChannel
+            );
+            if (!connection) {
+              return;
+            }
+
+            message.channel.send(
+              `Joined channel \`${message.member.voice.channel.name}\``
+            );
             await this.play(message, voiceChannel, connection);
           } else {
             message.channel.send(`queued ${songInfo.title}`);
@@ -531,11 +511,10 @@ module.exports = {
           message.reply(`there is no song to skip!`);
         } else {
           this.songQueue.shift();
-          var connection = joinVoiceChannel({
-            channelId: voiceChannel.id,
-            guildId: voiceChannel.guild.id,
-            adapterCreator: voiceChannel.guild.voiceAdapterCreator,
-          });
+          const connection = await this.getReadyConnection(message, voiceChannel);
+          if (!connection) {
+            return;
+          }
           await this.play(message, voiceChannel, connection);
         }
         break;
@@ -639,6 +618,40 @@ module.exports = {
     }
     return voiceChannel;
   },
+  async getReadyConnection(message, voiceChannel) {
+    let connection = getVoiceConnection(voiceChannel.guild.id);
+
+    if (
+      connection &&
+      connection.joinConfig &&
+      connection.joinConfig.channelId !== voiceChannel.id
+    ) {
+      connection.destroy();
+      connection = undefined;
+    }
+
+    if (!connection) {
+      connection = joinVoiceChannel({
+        channelId: voiceChannel.id,
+        guildId: voiceChannel.guild.id,
+        adapterCreator: voiceChannel.guild.voiceAdapterCreator,
+      });
+    }
+
+    try {
+      await entersState(connection, VoiceConnectionStatus.Ready, 15000);
+      return connection;
+    } catch (error) {
+      console.log("Voice connection not ready within 15s.", error);
+      if (connection) {
+        connection.destroy();
+      }
+      await message.channel.send(
+        "Failed to establish the voice connection. Please try the command again in a moment."
+      );
+      return null;
+    }
+  },
   //set the play option. will be changed in future updates to db
   async getsearchoptions() {
     const searchoptions = {
@@ -685,13 +698,13 @@ module.exports = {
     }
     try {
       //get the first song in the queue and play it
-      songPlay = this.songQueue[0];
-      const stream = await ytdl(songPlay.url, {
-        filter: "audioonly",
-        quality: "highestaudio",
-        highWaterMark: 1 << 25,
-      });
-      const resource = createAudioResource(stream);
+      const songPlay = this.songQueue[0];
+      const ytdlpProc = ytdlp.exec(songPlay.url, {
+        format: "bestaudio",
+        quiet: true,
+        output: "-",
+      }, { stdio: ["ignore", "pipe", "ignore"] });
+      const resource = createAudioResource(ytdlpProc.stdout);
       const audioPlayer = createAudioPlayer();
       connection.subscribe(audioPlayer);
       audioPlayer.play(resource);

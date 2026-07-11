@@ -17,16 +17,18 @@
   },
   "homepage": "https://github.com/NoMoreNameToUse/still-testing#readme",
   "dependencies": {
-    "@discordjs/voice": "^0.16.0",
-    "@distube/ytdl-core": "^4.13.5",
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.16.12",
     "discord.js": "^14.13.0",
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "libsodium-wrappers": "^0.7.13",
     "opusscript": "^0.1.1",
-    "sequelize": "^6.34.0",
-    "sqlite3": "^5.1.6",
+    "play-dl": "^1.9.7",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1",
     "youtube-sr": "^4.3.9",
+    "yt-dlp-exec": "^1.0.2",
     "ytdl-core": "^4.11.5"
   }
 }

@@ -41,3 +41,38 @@ aaa
 #LOG <Sun Jun 09 2024 19:38:46 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p Poor Man's Poison Lets go with Poor,Man's,Poison,Lets,go as arguments
 /*---------New Console Log startet at Wed Jul 24 2024 19:34:31 GMT+0200 (Mitteleuropäische Sommerzeit)---------*/
 #LOG <Wed Jul 24 2024 19:35:09 GMT+0200 (Mitteleuropäische Sommerzeit)>: <@594484787914473483> used %m p chop suy with chop,suy as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:14:44 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:15:12 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:16:31 GMT+0200 (Central European Summer Time)---------*/
+/*---------New Console Log startet at Sat May 23 2026 01:21:21 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:21:37 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+#LOG <Sat May 23 2026 01:21:37 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:22:00 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:22:19 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:25:16 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:25:37 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:28:23 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:28:34 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:29:10 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:29:23 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree+ with lemon,tree+ as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:29:34 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:29:38 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:41:14 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:41:26 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p lemon tree with lemon,tree as arguments
+/*---------New Console Log startet at Sat May 23 2026 01:41:58 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat May 23 2026 01:42:07 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s 奢香夫人 青岛大学 with 奢香夫人,青岛大学 as arguments
+#LOG <Mon May 25 2026 12:04:52 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 安奈 with 安奈 as arguments
+#LOG <Fri May 29 2026 21:54:44 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s subway of your mind with subway,of,your,mind as arguments
+#LOG <Sat May 30 2026 23:09:00 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %hmm with  as arguments
+#LOG <Tue Jun 02 2026 00:46:07 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 离别开出花 with 离别开出花 as arguments
+#LOG <Tue Jun 02 2026 23:31:06 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p https://www.youtube.com/watch?v=wixUQJFGhao with https://www.youtube.com/watch?v=wixUQJFGhao as arguments
+#LOG <Tue Jun 02 2026 23:31:21 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s another bubble with another,bubble as arguments
+#LOG <Wed Jun 03 2026 17:56:45 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 明天会更好 with 明天会更好 as arguments
+#LOG <Thu Jun 04 2026 22:34:24 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+#LOG <Thu Jun 04 2026 23:35:30 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+#LOG <Thu Jun 04 2026 23:36:30 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s here comes another bubble with here,comes,another,bubble as arguments
+#LOG <Fri Jun 05 2026 23:32:35 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s here comes another bubble with here,comes,another,bubble as arguments
+#LOG <Fri Jun 05 2026 23:43:14 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 安奈 with 安奈 as arguments
+#LOG <Sat Jun 06 2026 22:52:07 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s here comes another bubble with here,comes,another,bubble as arguments
+/*---------New Console Log startet at Thu Jun 11 2026 22:36:19 GMT+0200 (Central European Summer Time)---------*/
+/*---------New Console Log startet at Wed Jul 01 2026 23:21:21 GMT+0200 (Central European Summer Time)---------*/

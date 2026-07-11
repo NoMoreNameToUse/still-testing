@@ -78,7 +78,7 @@ const tempMemory = new Sequelize({
 });
 /*-----------------------------Startup-----------------------------*/
 //Programm startup message
-Still_testing.once("ready", () => {
+Still_testing.once(Events.ClientReady, () => {
   //display connect status in
   console.log("Connected as " + Still_testing.user.tag);
   console.log("Bot Version:" + version);
