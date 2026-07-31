@@ -1,7 +1,5 @@
 //Load yt-dlp-exec for audio streaming (replaces ytdl-core)
 const ytdlp = require("yt-dlp-exec");
-//Load ytsr(you-tube-search-result). Npmjs :https://www.npmjs.com/package/ytsr
-const ytsr = require('youtube-sr').default;
 //using ffmpeg from https://www.ffmpeg.org/
 
 //discord.js v14 compliant
@@ -213,6 +211,8 @@ module.exports = {
           if (!voiceChannel) break;
           //get ytsr search results
           let searchResult = await this.searchyt(message, searchArgument, true);
+          //failure message already sent by searchyt, nothing to choose from
+          if (searchResult.length == 0) break;
 
           //set the search state to true to prevent command overlapping
           this.musicSearchState = true;
@@ -399,6 +399,8 @@ module.exports = {
             });
           if (searchName == "leave") break;
           const searchResult = await this.searchyt(message, searchName, true);
+          //failure message already sent by searchyt, nothing to choose from
+          if (searchResult.length == 0) break;
           this.musicSearchState = true;
           //wait for the user to chose the version to play
           const searchLimit = (await this.getsearchoptions()).limit;
@@ -660,24 +662,67 @@ module.exports = {
     };
     return searchoptions;
   },
-  //search given song name or whatever in youtube using ytsr
+  //format a duration given in seconds into m:ss (or h:mm:ss)
+  formatDuration(seconds) {
+    if (seconds == null || isNaN(seconds)) return "LIVE";
+    const total = Math.floor(seconds);
+    const h = Math.floor(total / 3600);
+    const m = Math.floor((total % 3600) / 60);
+    const s = total % 60;
+    const pad = (n) => String(n).padStart(2, "0");
+    return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
+  },
+  //search given song name or whatever in youtube using yt-dlp
   async searchyt(message, playArgument, state) {
     var options = await this.getsearchoptions();
     const limit = options.limit;
 
-    //Temporary Switched to Youtube-sr
-    const searchResult = await ytsr
-      .search(playArgument, { limit: limit })
-      .catch((err) => {
-        console.log(err);
-      });
-      console.log("searchresult");
-      console.log(searchResult);
+    //Search via yt-dlp (same engine used for playback). Unlike youtube-sr,
+    //a single malformed result does not crash the whole search.
+    let searchResult = [];
+    try {
+      const { stdout } = await ytdlp.exec(
+        `ytsearch${limit}:${playArgument}`,
+        {
+          dumpJson: true,
+          flatPlaylist: true,
+          noWarnings: true,
+          ignoreErrors: true,
+        },
+        { stdio: ["ignore", "pipe", "ignore"] }
+      );
+      searchResult = stdout
+        .trim()
+        .split("\n")
+        .filter(Boolean)
+        .map((line) => {
+          try {
+            return JSON.parse(line);
+          } catch (e) {
+            return null;
+          }
+        })
+        .filter(Boolean)
+        .map((video) => ({
+          id: video.id,
+          title: video.title,
+          durationFormatted: this.formatDuration(video.duration),
+        }));
+    } catch (err) {
+      console.log(err);
+    }
+    console.log("searchresult");
+    console.log(searchResult);
+
     const data = [];
     //check if need to list all the songs
     if (state == true) {
+      if (searchResult.length == 0) {
+        message.channel.send(`failed to find song \`${playArgument}\``);
+        return searchResult;
+      }
       data.push(`**Search results:**\n`);
-      for (let i = 0; i < limit; i++) {
+      for (let i = 0; i < searchResult.length; i++) {
         const num = i + 1;
         data.push(
           `\`${num}\`.  -  ${searchResult[i].title}  [${searchResult[i].durationFormatted}]`

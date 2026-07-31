@@ -76,3 +76,78 @@ aaa
 #LOG <Sat Jun 06 2026 22:52:07 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s here comes another bubble with here,comes,another,bubble as arguments
 /*---------New Console Log startet at Thu Jun 11 2026 22:36:19 GMT+0200 (Central European Summer Time)---------*/
 /*---------New Console Log startet at Wed Jul 01 2026 23:21:21 GMT+0200 (Central European Summer Time)---------*/
+/*---------New Console Log startet at Fri Jul 10 2026 21:20:19 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Fri Jul 10 2026 21:20:51 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s linkdin park with linkdin,park as arguments
+/*---------New Console Log startet at Sun Jul 12 2026 21:16:53 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sun Jul 12 2026 21:17:13 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %hmm with  as arguments
+#LOG <Sun Jul 12 2026 21:17:38 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s in the end with in,the,end as arguments
+#LOG <Sun Jul 12 2026 23:18:31 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s in the end with in,the,end as arguments
+#LOG <Mon Jul 13 2026 02:04:45 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s linkdin park papercut with linkdin,park,papercut as arguments
+#LOG <Mon Jul 13 2026 23:55:52 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s i wonder how with i,wonder,how as arguments
+#LOG <Tue Jul 14 2026 22:12:42 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s kurz fuer immer with kurz,fuer,immer as arguments
+#ERROR <Tue Jul 14 2026 22:13:35 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#ERROR <Tue Jul 14 2026 22:14:06 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#ERROR <Tue Jul 14 2026 22:14:19 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#ERROR <Tue Jul 14 2026 22:14:36 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#LOG <Tue Jul 14 2026 22:14:59 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s linkdin park with linkdin,park as arguments
+#ERROR <Tue Jul 14 2026 22:15:16 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#ERROR <Tue Jul 14 2026 22:16:00 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#ERROR <Tue Jul 14 2026 22:16:12 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#LOG <Tue Jul 14 2026 22:16:27 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %help with  as arguments
+#LOG <Tue Jul 14 2026 22:16:38 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %bulkdelete  5 with 5 as arguments
+#LOG <Tue Jul 14 2026 22:16:45 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %bulkdelete  10 with 10 as arguments
+#LOG <Tue Jul 14 2026 22:16:59 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %bulkdelete 10 with 10 as arguments
+/*---------New Console Log startet at Tue Jul 14 2026 22:18:42 GMT+0200 (Central European Summer Time)---------*/
+#ERROR <Tue Jul 14 2026 22:18:49 GMT+0200 (Central European Summer Time)>: TypeError: Cannot read properties of undefined (reading '0')
+#LOG <Tue Jul 14 2026 22:40:37 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %rl m with m as arguments
+#LOG <Tue Jul 14 2026 22:40:46 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p alles gut genug with alles,gut,genug as arguments
+#LOG <Tue Jul 14 2026 22:40:55 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m skip with  as arguments
+#LOG <Tue Jul 14 2026 23:07:16 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p alles gut genug with alles,gut,genug as arguments
+#LOG <Tue Jul 14 2026 23:07:53 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p arbeitsbetrug with arbeitsbetrug as arguments
+#LOG <Tue Jul 14 2026 23:08:11 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m skip with  as arguments
+#LOG <Tue Jul 14 2026 23:50:17 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s voila with voila as arguments
+#LOG <Tue Jul 14 2026 23:58:06 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 红旗灿烂 with 红旗灿烂 as arguments
+#LOG <Tue Jul 14 2026 23:58:36 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 阳光灿烂照红旗 with 阳光灿烂照红旗 as arguments
+#LOG <Wed Jul 15 2026 00:02:32 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 奢香夫人 with 奢香夫人 as arguments
+/*---------New Console Log startet at Fri Jul 17 2026 01:02:08 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Fri Jul 17 2026 01:02:23 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p arbeitszeitbetrug with arbeitszeitbetrug as arguments
+#LOG <Fri Jul 17 2026 01:02:30 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m skip with  as arguments
+#LOG <Fri Jul 17 2026 01:02:42 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s arbeitszeitbetrug with arbeitszeitbetrug as arguments
+#LOG <Fri Jul 17 2026 01:12:01 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s du bist gut genug with du,bist,gut,genug as arguments
+#LOG <Fri Jul 17 2026 01:15:40 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+#LOG <Fri Jul 17 2026 23:38:33 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+/*---------New Console Log startet at Mon Jul 20 2026 21:36:33 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Mon Jul 20 2026 21:37:02 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m s 希望你被這個世界愛 with 希望你被這個世界愛 as arguments
+#LOG <Mon Jul 20 2026 21:40:29 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p 无敌是多么寂寞 with 无敌是多么寂寞 as arguments
+#LOG <Mon Jul 20 2026 22:27:05 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+#LOG <Mon Jul 20 2026 22:30:50 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s du bist gut genug with du,bist,gut,genug as arguments
+#LOG <Mon Jul 20 2026 23:50:50 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p 无敌是多么寂寞 with 无敌是多么寂寞 as arguments
+#LOG <Mon Jul 20 2026 23:52:47 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 明天会更好 with 明天会更好 as arguments
+#LOG <Tue Jul 21 2026 22:18:50 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 明天会更好 with 明天会更好 as arguments
+/*---------New Console Log startet at Wed Jul 22 2026 21:59:12 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Wed Jul 22 2026 22:01:50 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 明天会更好 with 明天会更好 as arguments
+#LOG <Wed Jul 22 2026 22:46:20 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+#LOG <Wed Jul 22 2026 22:51:00 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 阳光灿烂照红旗 with 阳光灿烂照红旗 as arguments
+#LOG <Wed Jul 22 2026 22:51:54 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 阳光灿烂照红旗 with 阳光灿烂照红旗 as arguments
+#LOG <Wed Jul 22 2026 22:52:01 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 阳光灿烂照红旗 with 阳光灿烂照红旗 as arguments
+#LOG <Wed Jul 22 2026 22:55:24 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m 红旗灿烂 with  as arguments
+#LOG <Wed Jul 22 2026 22:55:37 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 红旗灿灿 with 红旗灿灿 as arguments
+#LOG <Wed Jul 22 2026 22:55:53 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 红旗飘扬 with 红旗飘扬 as arguments
+#LOG <Wed Jul 22 2026 22:56:05 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 红旗飘扬 with 红旗飘扬 as arguments
+#LOG <Wed Jul 22 2026 22:56:13 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 红旗飘扬 with 红旗飘扬 as arguments
+#LOG <Wed Jul 22 2026 22:56:49 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 孔夫子的话越来越国际化 with 孔夫子的话越来越国际化 as arguments
+/*---------New Console Log startet at Thu Jul 23 2026 23:06:05 GMT+0200 (Central European Summer Time)---------*/
+/*---------New Console Log startet at Sat Jul 25 2026 21:55:14 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sat Jul 25 2026 21:55:18 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %hmm with  as arguments
+#LOG <Sat Jul 25 2026 22:03:13 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p 无敌是多么寂寞 with 无敌是多么寂寞 as arguments
+#LOG <Sat Jul 25 2026 22:05:42 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s SHE 中国话 with SHE,中国话 as arguments
+/*---------New Console Log startet at Sun Jul 26 2026 23:25:14 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Sun Jul 26 2026 23:58:59 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s SHE 中国话 with SHE,中国话 as arguments
+#LOG <Mon Jul 27 2026 22:13:33 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p charls berthoud sand of time with charls,berthoud,sand,of,time as arguments
+#LOG <Tue Jul 28 2026 00:55:49 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 中国话 with 中国话 as arguments
+#LOG <Tue Jul 28 2026 21:36:27 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s dumb ways to die with dumb,ways,to,die as arguments
+#LOG <Tue Jul 28 2026 21:54:36 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m p 无敌是多么寂寞 with 无敌是多么寂寞 as arguments
+#LOG <Tue Jul 28 2026 21:56:15 GMT+0200 (Central European Summer Time)>: <@594604652876660756> used %m s 刚好遇见你 with 刚好遇见你 as arguments
+#LOG <Tue Jul 28 2026 23:17:49 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %hmm with  as arguments
+/*---------New Console Log startet at Wed Jul 29 2026 21:50:21 GMT+0200 (Central European Summer Time)---------*/
+#LOG <Wed Jul 29 2026 21:50:58 GMT+0200 (Central European Summer Time)>: <@594484787914473483> used %m p 刚好遇见你 with 刚好遇见你 as arguments
